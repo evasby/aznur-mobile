@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hidded {
   visibility: hidden; }
 
@@ -68,30 +69,28 @@
   -webkit-animation-delay: 2s;
   animation-delay: 2s; }
 
-@media all and (max-width: 760px) {
-  .def_inner {
-    overflow: hidden;
-    padding-top: 64px; }
-    .def_inner * {
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box; }
-    .def_inner h1 {
-      width: 100%;
-      text-align: center; }
-    .def_inner .row {
-      margin: 0; }
-    .def_inner .col-sm-6 {
-      padding: 0; }
-    .def_inner .def_content {
-      padding: 0 12px 12px 12px; }
-    .def_inner .def_social {
-      opacity: 1 !important; } }
+@media all and (max-width: 1000px) {
+  html {
+    min-width: 0; } }
 
-@media all and (max-width: 760px) {
-  .front .region-content-l {
-    display: none; }
-  .front .news-block {
-    display: none; } }
+@media all and (max-width: 1000px) {
+  body > h1 {
+    font-size: 21px;
+    margin: 10px 0; } }
+
+@media all and (max-width: 1000px) {
+  body h2.h4 {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0; } }
+
+@media all and (max-width: 1000px) {
+  .b {
+    margin: 0; } }
+
+@media all and (max-width: 768px) {
+  #itc-widget-button {
+    display: none !important; } }
 
 /*!
  * animate.css -http://daneden.me/animate
@@ -2461,3 +2460,271 @@
 .slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
+
+@media all and (max-width: 1000px) {
+  .header {
+    height: auto; } }
+
+@media all and (max-width: 1000px) {
+  .header .logo {
+    float: none;
+    margin: 0;
+    max-width: 169px;
+    margin: 0 auto; } }
+
+@media all and (max-width: 1000px) {
+  .header .phone {
+    float: none;
+    text-align: center;
+    margin: 0; } }
+
+@media all and (max-width: 1000px) {
+  .header .time-work {
+    float: none;
+    text-align: center; } }
+
+.container {
+  width: 100%;
+  max-width: 1000px; }
+
+@media all and (max-width: 1000px) {
+  .top-menu {
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .lang_ch {
+    float: none;
+    width: 82px;
+    margin: 5px auto 0 auto; } }
+
+@media all and (max-width: 1000px) {
+  .nav-class {
+    float: none;
+    margin: 0;
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .car-c {
+    margin: 0; } }
+
+@media all and (max-width: 1000px) {
+  .car-c.has-discount:before {
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .car-c.has-discount > a {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; }
+    .car-c.has-discount > a:before {
+      background: transparent url("/bitrix/templates/main/img/Layer-36-copy.png") no-repeat scroll 0 0;
+      background-size: 100%;
+      color: #363636;
+      content: "Скидка на прокат!";
+      display: block;
+      font: italic 14px/14px Georgia,sans-serif;
+      height: 120px;
+      padding: 16px 14px 0 48px;
+      position: absolute;
+      right: 0px;
+      text-align: center;
+      top: 0px;
+      width: 120px; } }
+
+.car-c__img {
+  max-width: 516px; }
+  @media all and (max-width: 1000px) {
+    .car-c__img {
+      width: 100%;
+      max-width: 400px; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__content {
+    height: auto;
+    text-align: center; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__buttons {
+    float: none;
+    margin: 10px auto 0 auto; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__buttons .btn {
+    margin-bottom: 10px; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__title {
+    font-size: 16px; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__table-caracter-wr {
+    float: none;
+    margin: 0 auto; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__table-caracter-wr .table-caracter {
+    margin-bottom: 15px; } }
+
+@media all and (max-width: 1000px) {
+  .car-c__price-wr {
+    margin: 0; } }
+
+@media all and (max-width: 1000px) {
+  .main-filter {
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .c-bottom {
+    padding-top: 0; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3 {
+    margin-bottom: 0; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3__item {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D23336; }
+    .catalog-main3--2 .catalog-main3__item {
+      width: 100%; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3__item a:nth-child(2) {
+    display: block;
+    max-width: 202px;
+    margin: 0 auto; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3__item.has-discount:before {
+    display: none; } }
+
+.catalog-main3__item.has-discount a:nth-child(2) {
+  position: relative; }
+  .catalog-main3__item.has-discount a:nth-child(2):before {
+    background: transparent url("/bitrix/templates/main/img/discount.png") no-repeat scroll 0 0;
+    color: #000;
+    content: "Скидка на прокат!";
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    height: 148px;
+    right: -24px;
+    line-height: 13px;
+    padding: 35px 40px 0 70px;
+    position: absolute;
+    text-align: center;
+    top: -18px;
+    width: 148px; }
+
+.catalog-main3__title {
+  font-size: 21px; }
+  @media all and (max-width: 1000px) {
+    .catalog-main3__title {
+      margin-bottom: 10px; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3__img {
+    margin-bottom: 10px; } }
+
+@media all and (max-width: 1000px) {
+  .catalog-main3__price {
+    margin-bottom: 10px; } }
+
+@media all and (max-width: 1000px) {
+  .c-text {
+    padding-bottom: 0; } }
+
+@media all and (max-width: 1000px) {
+  .footer {
+    text-align: center;
+    height: auto; } }
+
+@media all and (max-width: 1000px) {
+  .footer .develop {
+    float: none;
+    height: auto;
+    margin: 0;
+    padding: 0; } }
+
+@media all and (max-width: 1000px) {
+  .footer .copyright {
+    margin: 0; } }
+
+@media all and (max-width: 1000px) {
+  .b-sidebar {
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .b-content {
+    float: none;
+    width: 100%;
+    margin: 0; } }
+
+@media all and (max-width: 1000px) {
+  .make-offer {
+    position: static !important;
+    padding: 0 !important;
+    text-align: center !important;
+    margin: 10px 0 0 !important;
+    font-size: 18px !important; } }
+
+@media all and (max-width: 1000px) {
+  .breadcrumb {
+    padding: 5px 0 0;
+    text-align: center; } }
+
+@media all and (max-width: 1000px) {
+  .wrap-page h1 {
+    font-size: 26px;
+    text-align: center; } }
+
+@media all and (max-width: 1000px) {
+  .content-inner {
+    padding: 10px; } }
+
+@media all and (max-width: 768px) {
+  .content-inner table img {
+    display: none; }
+  .content-inner table td {
+    padding: 3px !important;
+    font-size: 14px; } }
+
+@media all and (max-width: 1000px) {
+  .content-inner h2 {
+    font-size: 18px; } }
+
+@media all and (max-width: 1000px) {
+  .content-inner h3, .content-inner h4 {
+    font-size: 16px; } }
+
+@media all and (max-width: 1000px) {
+  .content-inner ul {
+    margin-left: 0;
+    padding-left: 10px; }
+    .content-inner ul li {
+      font-size: 16px; } }
+
+@media all and (max-width: 768px) {
+  .contact-inf {
+    float: none;
+    margin: 0;
+    padding-top: 10px; } }
+
+@media all and (max-width: 768px) {
+  .contact-inf a {
+    display: block;
+    text-align: center;
+    margin: 0;
+    width: 100%; } }
+
+@media all and (max-width: 768px) {
+  .socials {
+    text-align: center;
+    height: 50px; } }

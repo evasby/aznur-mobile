@@ -1,35 +1,30 @@
-.def_inner{
-	@include m768{
-		overflow: hidden;
-		padding-top: 64px;
-		*{
-			box-sizing: border-box;
+html{
+	@include m1{
+		min-width: 0;	
+	}
+}
+body{
+	& > h1{
+		@include m1{
+			font-size: 21px;
+			margin: 10px 0;
 		}
-		h1{
-			width: 100%;
+	}
+	h2.h4{
+		@include m1{
+			font-size: 18px;
 			text-align: center;
-		}
-		.row{
-			margin: 0;
-		}
-		.col-sm-6{
-			padding: 0;
-		}
-		.def_content{
-			padding: 0 12px 12px 12px;
-		}
-		.def_social{
-			opacity: 1!important;
+			margin: 10px 0;
 		}
 	}
 }
-.front{
-	@include m768{
-		.region-content-l{
-			display: none;
-		}
-		.news-block{
-			display: none;
-		}
+.b{
+	@include m1{
+		margin: 0;
+	}
+}
+#itc-widget-button{
+	@include m7{
+		display: none!important;
 	}
 }

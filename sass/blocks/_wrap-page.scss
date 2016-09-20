@@ -1,0 +1,8 @@
+.wrap-page{
+	h1{
+		@include m1{
+			font-size: 26px;
+			text-align: center;
+		}
+	}
+}
