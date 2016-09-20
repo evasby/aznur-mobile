@@ -29,22 +29,24 @@
 				}
 			}
 			a:nth-child(2){
-				position: relative;
-				&:before{
-					background: rgba(0, 0, 0, 0) url("/bitrix/templates/main/img/discount.png") no-repeat scroll 0 0;
-			    color: #000;
-			    content: "Скидка на прокат!";
-			    display: block;
-			    font-size: 13px;
-			    font-style: italic;
-			    height: 148px;
-			    right: -24px;
-			    line-height: 13px;
-			    padding: 35px 40px 0 70px;
-			    position: absolute;
-			    text-align: center;
-			    top: -18px;
-			    width: 148px;
+				@include m1{
+					position: relative;
+					&:before{
+						background: rgba(0, 0, 0, 0) url("/bitrix/templates/main/img/discount.png") no-repeat scroll 0 0;
+				    color: #000;
+				    content: "Скидка на прокат!";
+				    display: block;
+				    font-size: 13px;
+				    font-style: italic;
+				    height: 148px;
+				    right: -24px;
+				    line-height: 13px;
+				    padding: 35px 40px 0 70px;
+				    position: absolute;
+				    text-align: center;
+				    top: -18px;
+				    width: 148px;
+					}
 				}
 			}
 		}

@@ -1,6 +1,7 @@
 .content-inner{
 	@include m1{
 		padding: 10px;
+		overflow: hidden;
 	}
 	@include m7{
 		table{

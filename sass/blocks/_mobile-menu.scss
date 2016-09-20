@@ -1,0 +1,22 @@
+.mobile-menu{
+	//display: none;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	&_list{
+		list-style: outside none none;
+	  margin: 0;
+	  padding: 0;
+	}
+	&_link{
+		@include link(#363636, #d43336);
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    &:hover{
+			text-decoration: none;
+    }
+	}
+}

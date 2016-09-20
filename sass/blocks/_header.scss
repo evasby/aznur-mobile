@@ -1,6 +1,8 @@
 .header{
 	@include m1{
 		height: auto;
+		position: relative;
+		z-index: 2;
 	}
 	.logo{
 		@include m1{
