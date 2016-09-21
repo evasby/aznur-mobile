@@ -2473,7 +2473,7 @@
     float: none;
     margin: 0;
     max-width: 169px;
-    margin: 0 auto; } }
+    margin: 25px auto 0; } }
 
 @media all and (max-width: 1000px) {
   .header .phone {
@@ -2526,6 +2526,7 @@
   .header .top-menu li a {
     padding: 0;
     text-align: left;
+    font-size: 16px;
     color: #fff; }
     .header .top-menu li a:link {
       color: #fff; }
@@ -2674,9 +2675,11 @@
       width: 148px; } }
 
 .catalog-main3__title {
-  font-size: 21px; }
+  font-size: 21px;
+  height: 35px; }
   @media all and (max-width: 1000px) {
     .catalog-main3__title {
+      height: auto;
       margin-bottom: 10px; } }
 
 @media all and (max-width: 1000px) {
@@ -2690,6 +2693,12 @@
 @media all and (max-width: 1000px) {
   .c-text {
     padding-bottom: 0; } }
+  @media all and (max-width: 1000px) and (max-width: 1000px) {
+    .c-text h2 {
+      font-size: 18px; } }
+  @media all and (max-width: 1000px) and (max-width: 1000px) {
+    .c-text h3, .c-text h4 {
+      font-size: 16px; } }
 
 @media all and (max-width: 1000px) {
   .footer {
@@ -2970,7 +2979,7 @@
   .mobile-menu_link {
     color: #fff;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-transform: uppercase; }
     .mobile-menu_link:link {
