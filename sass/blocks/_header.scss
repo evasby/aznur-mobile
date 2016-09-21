@@ -3,6 +3,7 @@
 		height: auto;
 		position: relative;
 		z-index: 2;
+		min-width: 0;
 	}
 	.logo{
 		@include m1{
