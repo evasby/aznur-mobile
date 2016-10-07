@@ -1,0 +1,15 @@
+.develop{
+	float: none;
+	display: block;
+	white-space: nowrap;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: transparent url('../images/logoWF.png') left top no-repeat;
+	width: 177px;
+	height: 44px;
+	background-size: contain;
+	&_inner{
+		float: right;
+		font-size: 14px;
+	}
+}
